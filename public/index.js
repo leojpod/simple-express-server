@@ -1,4 +1,4 @@
-/* global fetch */
+/* global fetch, Headers */
 'use strict'
 
 const content = document.getElementById('content')
@@ -19,6 +19,7 @@ superForm.addEventListener('submit', (e) => {
   console.log('text -> ', text)
   fetch('api/process-text', {
     method: 'POST',
+    headers: new Headers({'Content-Type': 'application/json'}),
     body: JSON.stringify({content: text})
   })
   .then(res => res.json())
