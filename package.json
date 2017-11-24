@@ -1,0 +1,11 @@
+{
+  "name": "simple-express-server",
+  "version": "0.0.0",
+  "description": "A simple example of a server with express",
+  "main": "server.js",
+  "repository": "",
+  "author": "Leo jPod <leo.jpod@lilo.org>",
+  "dependencies": {
+    "express": "~3.2.4"
+  }
+}
