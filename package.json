@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "simple-express-server",
   "version": "0.0.0",
   "description": "A simple example of a server with express",
@@ -7,5 +8,15 @@
   "author": "Leo jPod <leo.jpod@lilo.org>",
   "dependencies": {
     "express": "~3.2.4"
+=======
+  "name": "simple-js-server",
+  "version": "0.0.0",
+  "description": "A simple JavaScript server",
+  "main": "server.js",
+  "repository": "",
+  "author": "Leo jpod <leo.jpod@lilo.org>",
+  "dependencies": {
+    "nodemon": "^1.12.1"
+>>>>>>> 5da621690bb4d89fb86dcd26a7b2a79c8bf3e0d7
   }
 }
